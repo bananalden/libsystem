@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**** ICONS SIDE BAR  ****/
+
+.bi-journal-bookmark {
+  position: relative;
+  bottom: 1px;
+}
+
+.bi-trash {
+  position: relative;
+  bottom: 1px;
+}
+
+.bi {
+  display: inline-block;
+  margin-right: 5px;
+}
+.bi-person {
+  position: relative;
+  bottom: 1px;
+}
+
+.bi li {
+  display: flex;
+  align-items: center;
+}
+
+.bi-mortarboard {
+  position: relative;
+  bottom: 1px;
+}
+
+.bi-book {
+  position: relative;
+  bottom: 1px;
+}
+
+/***** SIDE BAR *****/
+.sidebar .logo {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar .logo img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.sidebar {
+  background-color: #333;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 15px; /* Increase padding */
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 18px; /* Increase font size */
+}
+
+.sidebar li a:hover {
+  color: #e85c29;
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.log-btn {
+  background-color: #9ba6a5;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  width: 48%;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  text-align: center; /* Center the text */
+  transition-duration: 0.4s; /* Transition duration */
+  cursor: pointer;
+}
+
+.log-btn:hover {
+  background-color: #a7bcb9;
+  color: white;
+}
+
+/* Responsive */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar li {
+    font-size: 16px; /* Adjust font size */
+    padding: 12px; /* Adjust padding */
+  }
+}
+
+/* MAIN CONTENT */
+
+.trash h1 {
+  font-size: 35px;
+  font-family: "Sedan SC", serif;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 160px;
+}
+
+.btn-find-book {
+  border-radius: 3px;
+  background-color: #f95959;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  color: white;
+  border: none;
+  display: flex;
+  width: 100px;
+  height: 33px;
+  padding: 5px;
+}
+
+.btn-find-book:hover {
+  background-color: #be3144;
+}

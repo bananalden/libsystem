@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0ece2;
+}
+
+/**** ICONS SIDE BAR  ****/
+
+.bi-journal-bookmark {
+  position: relative;
+  bottom: 1px;
+}
+
+.bi-trash {
+  position: relative;
+  bottom: 1px;
+}
+
+.bi {
+  display: inline-block;
+  margin-right: 5px;
+}
+.bi-person {
+  position: relative;
+  bottom: 1px;
+}
+
+.bi li {
+  display: flex;
+  align-items: center;
+}
+
+.bi-mortarboard {
+  position: relative;
+  bottom: 1px;
+}
+
+.bi-book {
+  position: relative;
+  bottom: 1px;
+}
+/***** SIDE BAR *****/
+
+.sidebar .logo {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar .logo img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.sidebar {
+  background-color: #333;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 15px; /* Increase padding */
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 18px; /* Increase font size */
+}
+
+.sidebar li a:hover {
+  color: #e85c29;
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.log-btn {
+  background-color: #9ba6a5;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  width: 48%;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  text-align: center; /* Center the text */
+  transition-duration: 0.4s; /* Transition duration */
+  cursor: pointer;
+}
+
+.log-btn:hover {
+  background-color: #a7bcb9;
+  color: white;
+}
+
+/* Responsive */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar li {
+    font-size: 16px; /* Adjust font size */
+    padding: 12px; /* Adjust padding */
+  }
+}
+
+/* HOME PAGE */
+.content h2 {
+  font-size: 30px;
+  font-family: "Sedan SC", serif;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  opacity: 0.9;
+}
+
+.p-1 {
+  margin-left: 20px; /* Add some space between the image and the text */
+  text-align: justify; /* Justify the text */
+  font-size: 25px;
+  font-family: "Sedan SC", serif;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .image-container {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center; /* Center elements horizontally on smaller screens */
+  }
+}
+
+/* ==== ABOUT US ==== */
+
+.content h3 {
+  font-size: 35px;
+  font-family: "Sedan SC", serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.images img {
+  width: 15vw;
+  height: 40vh;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 0.3s ease;
+}
+
+.images img:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+#about-us {
+  padding: 20px;
+  margin-top: 60px;
+  font-size: 25px;
+  font-family: "Sedan SC", serif;
+}
+
+/****** FOOTER  ******/
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.container-3 {
+  max-width: 1200px;
+  margin: 15px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container-3 {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dbd8e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 995px;
+    height: 690px;
+    border-radius: 25px;
+    border: 2px solid #e85c29;
+    background-color: #222831;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 90px;
+}
+
+.container-login h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 55px;
+    color: #e85c29;
+    font-family: "Briem Hand", cursive;
+}
+
+
+/* === USER DETAILS === */
+
+.user-container {
+    margin: 15px;
+}
+
+.user-details {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.input-box {
+    width: 330px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 45%;
+}
+  
+.custom-button:hover {
+    background-color: #e85c29;
+}
+
+#login-now {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0ece2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  height: 500px;
+  border-radius: 25px;
+  border: 2px solid #e85c29;
+  background-color: #222831;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 150px;
+}
+
+.container-login h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 55px;
+  color: #e85c29;
+  font-family: "Briem Hand", cursive;
+}
+
+/* === USER DETAILS === */
+
+.user-container {
+  margin: 20px;
+}
+
+.user-details {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.input-box {
+  width: 330px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-button {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  background-color: #9ba6a5;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 20%;
+}
+
+.custom-button:hover {
+  background-color: #a7bcb9;
+  color: #e85c29;
+}
